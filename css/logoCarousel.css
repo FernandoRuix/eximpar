@@ -1,0 +1,47 @@
+/*Logo carousel*/
+#listaMarcas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listaMarcas .listaMarcas--container {
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#clielistaMarcasnts .listaMarcas--container ul {
+	display: block;
+	list-style: none;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listaMarcas .listaMarcas--container ul li {
+	display: block;
+	float: left;
+	position: relative;
+	width: 220px;
+	height: 140px;
+	line-height: 100px;
+	text-align: center;
+}
+
+#listaMarcas .listaMarcas--container ul li img {
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+	-webkit-transition: 0 linear left;
+	-moz-transition: 0 linear left;
+	transition: 0 linear left;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+}
+
+#listaMarcas .listaMarcas--container ul li img:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
