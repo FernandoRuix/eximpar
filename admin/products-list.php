@@ -7,5 +7,7 @@ comprobarSession();
 if (!$conexion) {
     header('Location: ../error.php');
 }
-$css = 'main.css';
+
+$doc_title = "DOCUMENTO-TITLE";
+$css1 = 'css/admin.css';
 require 'views/products-list.view.php';

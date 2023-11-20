@@ -3,7 +3,6 @@
 require 'config.php';
 require 'functions.php';
 $conexion = conexion($db_config);
-comprobarSession();
 if (!$conexion) {
     header('Location: ../error.php');
 }
@@ -18,5 +17,6 @@ $stmt = $conexion->prepare($sql);
 $stmt->execute();
 $solicitudes = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-$css = 'main.css';
+$doc_title = "DOCUMENTO-TITLE";
+$css1 = 'css/admin.css';
 require 'views/admin_index.view.php';

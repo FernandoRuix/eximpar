@@ -13,5 +13,6 @@ if (!$conexion) {
 
 
 
-$css = 'cart.css';
+$doc_title = 'Detalle de Cotización';
+$css1 = 'css/cart.css';
 include 'views/cart.view.php';

@@ -49,5 +49,6 @@ $stmt = $conn->prepare($sql);
 $stmt->execute();
 $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-$css = 'main.css';
+$doc_title = "DOCUMENTO-TITLE";
+$css1 = 'css/admin.css';
 require 'views/subcategorias-new.view.php';

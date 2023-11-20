@@ -85,9 +85,9 @@
                         <div class="drop_hov">
                             <span class="button_length">30 POR PÁGINA</span>
                             <div class="sub_drop sub_length">
-                                <a href="" class="sort--length active" data-length="30"><div><i class="fa-regular fa-circle-check"></i>30 POR PÁGINA</div></a>
-                                <a href="" class="sort--length" data-length="50"><div><i class="fa-regular fa-circle"></i>50 POR PÁGINA</div></a>
-                                <a href="" class="sort--length" data-length="70"><div><i class="fa-regular fa-circle"></i>70 POR PÁGINA</div></a>
+                                <a href="" class="sort--length active" data-length="24"><div><i class="fa-regular fa-circle-check"></i>24 POR PÁGINA</div></a>
+                                <a href="" class="sort--length" data-length="48"><div><i class="fa-regular fa-circle"></i>48 POR PÁGINA</div></a>
+                                <a href="" class="sort--length" data-length="72"><div><i class="fa-regular fa-circle"></i>72 POR PÁGINA</div></a>
                             </div>
                         </div>
                         <div class="drop_hov">
@@ -118,7 +118,7 @@
 
     <div class="cart_button">
         <div> 
-            <img src="<?php echo RUTA; ?>/media/cart_icon.png" alt="">
+            <i class="fa-solid fa-cart-shopping"></i>
         </div>
         <div class="cart_quantity"></div>
     </div>
@@ -140,10 +140,7 @@
 <?php include'footer.php'?>
 
 <script src="<?php echo RUTA; ?>/js/functions.js"></script>
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
-<script src="<?php echo RUTA; ?>/js/tienda.dropdown-filter.js"></script>
-<script src="<?php echo RUTA; ?>/ajax/tienda.ajax.js"></script>
-<script src="<?php echo RUTA; ?>/ajax/cart.ajax.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
+<script src="<?php echo RUTA; ?>/js/tienda.ajax.js"></script>
+<script src="<?php echo RUTA; ?>/js/cart.ajax.js"></script>
 </body>
 </html>

@@ -2,13 +2,8 @@
 session_start();
 include 'admin/config.php';
 include 'admin/functions.php'; 
-comprobarSession();
-$conexion = conexion($db_config);
-if (!$conexion) {
-    // header('Location: error.php');
-}
-$dtb_name = 'productos';
 
-$css = 'contacto.css';
-
+$css1 = 'css/contacto.css';
+$doc_title = "Eximpar";
 include 'views/contacto.view.php';
+?>

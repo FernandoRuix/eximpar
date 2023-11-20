@@ -63,7 +63,5 @@
 <?php include'footer.php'?>
 
 <script src="<?php echo RUTA; ?>/js/functions.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
 </body>
 </html>

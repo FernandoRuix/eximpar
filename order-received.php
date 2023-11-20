@@ -40,6 +40,6 @@ if(!isset($_GET['q']) || !isset($_GET['key'])){
     }
 }
 
-
-$css = 'order-received.css';
+$doc_title = 'Confirmación de Solicitud';
+$css1 = 'css/order-received.css';
 include 'views/order-received.view.php';

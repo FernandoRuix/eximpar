@@ -129,5 +129,6 @@ $stmt = $conn->prepare($sql);
 $stmt->execute();
 $prioridades = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-$css = 'main.css';
+$doc_title = "DOCUMENTO-TITLE";
+$css1 = 'css/admin.css';
 require 'views/products-edit.view.php';

@@ -59,5 +59,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-$css = 'access.css';
+$doc_title = "Acceso";
+$css1 = 'css/access.css';
 require 'views/access.view.php';

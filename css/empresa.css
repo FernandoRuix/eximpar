@@ -1,0 +1,144 @@
+.header{    
+    height: 200px;
+    background: var(--color-blue-default);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.header-bottom span{
+    color: #fff;
+    height: 40px;
+    display: inline-block;
+    padding: 0 4px;
+}
+.header-bottom a{
+    color: #fff;
+}
+.header_title h4{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.about{
+    width: 90%;
+    margin: 4rem auto;
+}
+.about-info{
+    margin: 2rem 21px;
+}
+.about-info p{
+    font-size: 18px;
+    padding: 6px 0;
+    color: var(--color-gray-default);
+}
+.about-title{
+    margin: 0 21px;
+}
+.about-title h4{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.square-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.square{
+    position: relative;
+    margin: 0 21px;
+    background: #ccc;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+}
+.square-title{
+    position: absolute; 
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.square-title h4{
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+.square:hover .square-info{
+    transform: scale(1);
+    opacity: 1;
+}
+.square-info{
+    display: flex;
+    height: calc(100% - 60px);
+    width: calc(100% - 60px);
+    border: 2px solid #fff;
+    padding: 16px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+.square-info p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.square:hover img{
+    opacity: 0.2;
+    transform: scale(1);
+}
+.square img{
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    top: 0;
+    transform: scale(1.1);
+}
+
+
+.values-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 21px;
+}
+.values{
+    width: 90%;
+    margin: 5rem auto;
+}
+.values-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.values-item span{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+

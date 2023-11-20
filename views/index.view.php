@@ -1,136 +1,185 @@
 <?php include 'views/header.php'; ?>
 
-    <div class="main_home">
-        <img src="<?php echo RUTA; ?>/media/main_bg.png" class="main_home--max">
-        <img src="<?php echo RUTA; ?>/media/mainbg_mob.png" class="main_home--min">
+<div class="main">
+    <div class="main_image">
+        <img src="https://mc-i.co.uk/wp-content/uploads/2016/08/MCi_LincolnUni_header.jpg" alt="">
     </div>
-    
-
-    <div class="marcasSlide">
-        <div class="marcas__title">
-            <h3 class="marcas__title__title">PRINCIPALES MARCAS</h3>
+    <div class="main_body">
+        <div class="main_toptitle">
+            <h4>EQUIPOS, REACTIVOS Y MATERIALES PARA</h4>
         </div>
-        <div id="listaMarcas">
-            <div class="listaMarcas--container">
-            <ul id="animation_marcas" class="">
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/HERMLE.png" alt="Logo Hermle"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/KACIL.png" alt="Logo Kacil"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/ZEISS.png" alt="Logo Zeiss"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/JULABO.png" alt="Logo Julabo"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/BEILI.png" alt="Logo Beili"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/ESCHWEILER.png" alt="Logo Eschweiler"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/HUMAN.png" alt="Logo Human"></li>
-                <li><img src="<?php echo RUTA; ?>/media/LogosBrands/MYR.png" alt="Logo Myr"></li>
-            </ul>
-            </div>
+        <div class="main_title">
+            <h4>LABORATORIOS</h4>
+        </div>
+        <div class="main_subtitle">
+            <h4>A LA VANGUARDIA DE LA INVESTIGACIÓN</h4>
         </div>
     </div>
+</div>
 
-    <div class="textSection">
-        <div class="textSection--padd">
-            <div class="textSection--cont">
-                <div class="textSection--margin">
+<section class="splide">
+    <div class="splide__track">
+        <ul class="splide__list">
 
-                    <div class="textSection__left animate_right" id="uno">
-                        <div class="textSection__left--margin">
-                            <h3 class="textSection__left__title">Una Amplia Gama de Equipos y Productos de Alta Calidad</h3>
-                            <div class="textSection__left__parragr">
-                                <p class="textSection__left__parragr__text">
-                                    Nuestra empresa posee un enfoque de abastecimiento y suministro de productos de marcas de la más alta calidad y el mejor valor, brindando precisamente lo que necesita, exactamente cuando lo necesita.
-                                </p>
-                            </div>
-                            <a class="textSection__left__button" href="<?php echo RUTA; ?>/productos.php">
-                                <span>VER MAS</span>
-                            </a>
+            <li class="splide__slide">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="<?php echo RUTA; ?>/post_images/HumaClot-JUNIOR.png" alt="">
+                    </div>
+                    <div class="carousel-body">
+                        <h4>Humaclot Junior New</h4>
+                        <p>Instrumento compacto de coagulación de 1 canal. Tecnología LED avanzada con canal de referencia. Aplicaciones validadas para reactivos HUMAN preprogramados. Flujo de trabajo guiado. Cubierta protectora de la luz con soporte de pipeteado. Durable y no requiere mantenimiento</p>
+                        <div class="carousel-link">
+                            <a href="<?php echo RUTA; ?>/">Ver más...</a>
                         </div>
                     </div>
-
-                    <div class="textSection_right animate_left" id="uno">
-                        <img class="imgSlider" src="<?php echo RUTA; ?>/media/hexaDos.png" alt="">
-                    </div>
-
-
                 </div>
-            </div>
-        </div>
-    </div>
+            </li>
 
-
-    <div class="textSection">
-        <div class="textSection--padd" id="bd1">
-            <div class="textSection--cont">
-                <div class="textSection--margin" id="bd1">
-
-                    <div class="textSection__left animate_right" id="dos">
-                        <div class="textSection__left--margin">
-                                <img class="imgSlider" src="<?php echo RUTA; ?>/media/hexaUno.PNG" alt="">
+            <li class="splide__slide">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="<?php echo RUTA; ?>/post_images/fd_56.png" alt="">
+                    </div>
+                    <div class="carousel-body">
+                        <h4>Modelo FD 56 | Cámara de secado y calentamiento con convección forzada</h4>
+                        <p>Rango de temperatura: +10 °C por encima de la temperatura ambiente hasta +300 °C. Convección forzada. Controlador con pantalla LCD. Control electromecánico de la aleta de aire de escape. Excelente precisión de temperatura espacial y temporal. Hasta un 30% menos de consumo de energía en comparación con las unidades convencionales del mercado.</p>
+                        <div class="carousel-link">
+                            <a href="<?php echo RUTA; ?>/">Ver más...</a>
                         </div>
                     </div>
-
-                    <div class="textSection_right animate_left" id="dos">
-                        <h3 class="textSection__left__title">Un Equipo de Profesionales del Sector Laboratorial Altamente Capacitados Para su Mejor Atención</h3>
-                        <div class="textSection__left__parragr">
-                            <p class="textSection__left__parragr__text">
-                                Ellos lo ayudarán a seleccionar los equipos y productos adecuados para optimizar su flujo de trabajo y simplificar la vida cotidiana en diversas disciplinas cientificas.
-                            </p>
-                        </div>
-                        <a class="textSection__left__button" href="<?php echo RUTA; ?>/about.php">
-                            <span>VER MAS</span>
-                        </a>
-                    </div>
-
-
                 </div>
-            </div>
-        </div>
-    </div>
+            </li>
 
-    <div class="bgColor2">
-        <div class="dataSection">
-            <div class="dataSection--display">     
-                <div class="dataSection--container">
-
-                    <!-- #BeginEditable "contenido" -->  
-                    <div class="dataSection--container--bg">
-                        <div class="dataSection__box">
-                            <i class="dataSection__box__productos"></i><br>
-                            <b>PRODUCTOS</b>
-                            <p>
-                                Ofrecemos productos que sean fáciles de utilizar, de alta calidad y precisión.<br>
-                                Nuestros instrumentos y reactivos analíticos son utilizados en laboratorios clínicos a lo largo de todo el país.<br>
-                                Estos son de última generación facilitando al usuario el manejo y calidad de pruebas.
-                            </p>
-                        </div>
-                        <div class="dataSection__box">
-                            <i class="dataSection__box__servicios"></i><br>
-                            <b>SERVICIOS</b>
-                            <p>
-                                Brindamos servicio técnico oficial especializado con asesoramiento a todo el país.<br>
-                                Contamos con un servicio de atención al cliente que facilita el éxito en el proceso de compra de principio a fin. 
-                            </p>
-                        </div>
-                        <div class="dataSection__box">
-                            <i class="dataSection__box__proveedores"></i><br>
-                            <b>PROVEEDORES</b>
-                            <p>
-                                Trabajamos en conjunto con proveedores nacionales e internacionales que nos permiten brindar una solución integral acorde a la necesidad del cliente.<br>
-                                
-                            </p>
+            <li class="splide__slide">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="<?php echo RUTA; ?>/post_images/humacount30ts.png" alt="">
+                    </div>
+                    <div class="carousel-body">
+                        <h4>Humacount 30TS</h4>
+                        <p>22 parámetros a 30 muestras/hora: máxima versatilidad para laboratorios de pequeños a medianos. HumaCount 30TS es la primera elección de laboratorios pequeños con grandes exigencias y presupuestos restringidos, incluso en lugares remotos de asistencia. Ningún otro instrumento del mercado ofrece mayor versatilidad a este coste/prueba.</p>
+                        <div class="carousel-link">
+                            <a href="<?php echo RUTA; ?>/">Ver más...</a>
                         </div>
                     </div>
-
                 </div>
+            </li>
+
+            <li class="splide__slide">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="<?php echo RUTA; ?>/post_images/16080_HumaMeter_A1c.png" alt="">
+                    </div>
+                    <div class="carousel-body">
+                        <h4>Humameter A1c</h4>
+                        <p>HumaMeter A1c permite efectuar pruebas inmediatas y muy exactas de la HbA1c en centros asistenciales. Procesando tan solo 4 µl de sangre capilar en menos de 5 minutos, HumaMeter A1c es el instrumento ideal para determinar de manera intuitiva y exacta la HbA1c en centros asistenciales o laboratorios pequeños.</p>
+                        <div class="carousel-link">
+                            <a href="<?php echo RUTA; ?>/">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="splide__slide">
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="<?php echo RUTA; ?>/post_images/HumaPette_Smart-Line.png" alt="">
+                    </div>
+                    <div class="carousel-body">
+                        <h4>Pipetas Automáticas</h4>
+                        <p>Pipetas de primera elección con una relación calidad/precio superior. Cómoda posición del émbolo. Fuerza mínima para empujar el émbolo. Pantalla de lectura y configuración sencillas. Retroacción del accionamiento del botón. Calibración sencilla.</p>
+                        <div class="carousel-link">
+                            <a href="<?php echo RUTA; ?>/">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+<div class="marcas">
+    <div class="marcas-header">
+        <div class="marcas-subtitle">
+            <span>REPRESENTACIONES</span>
+        </div>
+        <div class="marcas-title">
+            <h4>Principales Marcas</h4>
+        </div>
+    </div>
+    <div class="marcas-body">
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/HUMAN.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/BOECO.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/ESCHWEILER.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/HERMLE.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/JULABO.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/KERN.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/MYR.png" alt="">
+            </a>
+        </div>
+        <div class="marcas-item">
+            <a href="">
+                <img src="<?php echo RUTA; ?>/media/brands/BINDER.png" alt="">
+            </a>
+        </div>
+        <!-- <div class="marcas-item">
+            <a href="">
+                <img src="<?php //echo RUTA; ?>/media/brands/GFL.png" alt="">
+            </a>
+        </div> -->
+    </div>
+</div>
+
+<div class="about">
+    <div class="about-body">
+        <div class="about-body__container">
+            <h4>Una Amplia Gama de Equipos y Productos de Alta Calidad</h4>
+            <p>Ofrecemos productos que sean fáciles de utilizar, de alta calidad y precisión.</p>
+            <p>
+                Nuestros instrumentos y reactivos analíticos son utilizados en laboratorios clínicos a lo largo de todo el país.
+                Estos son de última generación facilitando al usuario el manejo y gran calidad en sus pruebas de laboraratorio.
+            </p>
+            <div class="about-body__a">
+                <a href="<?php echo RUTA; ?>/contacto.php">Contáctanos</a>
             </div>
         </div>
     </div>
+    <div class="about-img">
+        <img src="<?php echo RUTA;?>/media/hmcount.png" alt="" srcset="">
+    </div>
+</div>
 
-<?php include'footer.php'?>
+<script src="<?php echo RUTA; ?>/js/anime-master/lib/anime.min.js"></script>
+<script src="<?php echo RUTA; ?>/js/splide-4.1.3/dist/js/splide.min.js"></script>
+<script src="<?php echo RUTA; ?>/js/index.js"></script>
+<script src="<?php echo RUTA; ?>/js/functions.js"></script>
 
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
-<script src="<?php echo RUTA; ?>/js/animations.js"></script>
-<script src="<?php echo RUTA; ?>/js/animationsLeft.js"></script>
-<script src="<?php echo RUTA; ?>/js/animationsRight.js"></script>
-<script  src="<?php echo RUTA; ?>/js/logoCarousel.js"></script>
-</body>
-</html>
+<?php include 'views/footer.php'; ?>

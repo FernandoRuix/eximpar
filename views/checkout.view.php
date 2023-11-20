@@ -70,9 +70,7 @@
 
 <?php include'footer.php'?>
 
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
-<script src="<?php echo RUTA; ?>/ajax/cart.ajax.js"></script>
+<script src="<?php echo RUTA; ?>/js/cart.ajax.js"></script>
 <script src="<?php echo RUTA; ?>/js/functions.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
 </body>
 </html>

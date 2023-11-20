@@ -34,12 +34,14 @@
                 <input type="hidden" value="<?php echo $data[0]['productos_id']?>" id="product_id">
                 <input type="text" value="1" id="product_quantity">
                 <button id="cotizar_button">Cotizar</button>
-                <a href="<?php echo RUTA; ?>/pdf/<?php echo $data[0]['prd_pdf']?>" target="_BLANK">Adjunto</a>
+                <?php if($data[0]['prd_pdf'] !== 'default.pdf') : ?>
+                    <a href="<?php echo RUTA; ?>/pdf/<?php echo $data[0]['prd_pdf']?>" target="_BLANK">Adjunto</a>
+                <?php endif; ?>
             </div>
         </div>
         <div class="product_img">
             <div id="img_container">
-                <img src="<?php echo RUTA;?>/images/<?php echo $data[0]['prd_thumb']?>" alt="">
+                <img src="<?php echo RUTA;?>/post_images/<?php echo $data[0]['prd_thumb']?>" alt="">
             </div>
         </div>
     </div>
@@ -47,9 +49,9 @@
 
     <div class="cart_button">
         <div> 
-            <img src="<?php echo RUTA; ?>/media/cart_icon.png" alt="">
+            <i class="fa-solid fa-cart-shopping"></i>
         </div>
-        <div class="cart_quantity"></div>
+        <div class="cart_quantity">0</div>
     </div>
 
     <div class="cartbg"></div>
@@ -68,10 +70,7 @@
 
 <?php include'footer.php'?>
 
-<script src="<?php echo RUTA; ?>/ajax/cart.ajax.js"></script>
+<script src="<?php echo RUTA; ?>/js/cart.ajax.js"></script>
 <script src="<?php echo RUTA; ?>/js/functions.js"></script>
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
-<script src="<?php echo RUTA; ?>/js/image_zoom.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
 </body>
 </html>

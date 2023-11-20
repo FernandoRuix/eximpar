@@ -44,7 +44,8 @@ if(empty($data)){
     header('Location: error.php');
 }
 
-$css = 'producto.css';
+$doc_title = $data[0]['prd_titulo'];
+$css1 = 'css/articulo.css';
 $filename = 'tienda.php';
 
 include 'views/producto.view.php';

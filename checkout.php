@@ -16,5 +16,6 @@ if ($_COOKIE["shopping_cart"] == '[]') {
 }
 
 
-$css = 'checkout.css';
+$doc_title = 'Detalle de Cotización';
+$css1 = 'css/checkout.css';
 include 'views/checkout.view.php';

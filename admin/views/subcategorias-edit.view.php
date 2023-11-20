@@ -1,4 +1,4 @@
-<?php include 'admin-header.php' ?>
+<?php include '../views/header.php' ?>
 
     <div class="main_container">
         <div class="sidebar">

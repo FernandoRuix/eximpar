@@ -37,9 +37,9 @@
 
     <div class="cart_button">
         <div> 
-            <img src="<?php echo RUTA; ?>/media/cart_icon.png" alt="">
+            <i class="fa-solid fa-cart-shopping"></i>
         </div>
-        <div class="cart_quantity"></div>
+        <div class="cart_quantity">0</div>
     </div>
 
     <div class="cartbg"></div>
@@ -58,9 +58,7 @@
 
 <?php include'footer.php'?>
 
-<script src="<?php echo RUTA; ?>/js/mobile-navbar.js"></script>
-<script src="<?php echo RUTA; ?>/ajax/cart.ajax.js"></script>
+<script src="<?php echo RUTA; ?>/js/cart.ajax.js"></script>
 <script src="<?php echo RUTA; ?>/js/functions.js"></script>
-<script src="<?php echo RUTA; ?>/js/stickyNav.js"></script>
 </body>
 </html>

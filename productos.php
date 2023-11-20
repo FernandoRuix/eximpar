@@ -3,9 +3,6 @@ session_start();
 include 'admin/config.php';
 include 'admin/functions.php'; 
 
-//TMP
-comprobarSession();
-
 $conexion = conexion($db_config);
 if (!$conexion) {
     header('Location: error.php');
@@ -35,9 +32,9 @@ $stmt = $conexion->prepare($sql);
 $stmt->execute();
 $subcategorias_software = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-
+$doc_title = 'Productos';
 $subcategoria = 'quimica-clinica';
-$css = 'productos.css';
+$css1 = 'css/productos.css';
 $dtb_name = 'productos';
 $filename = 'productos.php';
 
